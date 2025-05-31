@@ -24,7 +24,8 @@ import folder_paths
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageColor
 
-DLIB_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "dlib")
+#DLIB_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), "dlib")
+DLIB_DIR = os.path.join(folder_paths.models_dir, "dlib")
 INSIGHTFACE_DIR = os.path.join(folder_paths.models_dir, "insightface")
 
 THRESHOLDS = { # from DeepFace
